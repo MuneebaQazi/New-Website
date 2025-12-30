@@ -1,0 +1,199 @@
+
+.hum{
+    background-color: #1090CB;
+    color: #fff;
+    cursor: pointer;
+}
+.hum:hover{
+        background-color: #1090CB;
+        color:#fff ;
+
+}
+span{
+   color: #1090CB !important;
+}
+.colorbtn{
+    border-color: #1090CB;
+    color: #1090CB !important;
+    background-color: #fff;
+}
+.size{
+    font-size: 20px !important;
+}
+
+
+.center-box{
+    text-align: center;
+
+}
+.center-box>h1{
+    font-size: 33px;
+   color: #252525;
+}
+.center-box{
+    color: #868686;
+}
+.head>h1{
+font-size: 30px;
+}
+.head>p{
+    font-size: 16px;
+}
+.mem{
+    background-color: #1090CB;
+    border-radius: 50px;
+    width: 52px;
+    height: 52px;
+}
+.hom{
+    background-color: #9208D3;
+    border-radius: 50px;
+    width: 52px;
+    height: 52px;
+
+}
+.card-main{
+    background-color: #F4F4F4;
+}
+.crd{
+    background-color: #1090CB;
+    color: #fff;
+}
+.ofo{
+    background-color: #fff;
+    color: #1090CB;
+}
+
+
+.div-corner>img {
+    position: absolute; /* Image absolute */
+    top: 30px;          /* Top se gap */
+    right: 10px;        /* Right se gap */
+    width: 100px;
+    height: 100px;
+}
+
+
+    /* Optional: equal height for cards */
+/* .card-main, .card-crd {
+      max-height: 20rem;
+      max-width: 27rem;
+    } */
+
+
+  .container {
+      text-align: center;
+      padding: 20px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .container h2 {
+      margin-bottom: 20px;
+    }
+
+    .image-grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2, 1fr); /* Tablet/Desktop default 2 per row */
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    /* Mobile view */
+    @media (max-width: 767px) {
+      .image-grid {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+      }
+    }
+
+    /* Desktop view */
+    @media (min-width: 1024px) {
+      .image-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 images in a row on desktop */
+      }
+    }
+
+  .newsletter-section {
+      position: relative;
+      width: 90%;
+      max-width: 600px;
+      padding: 60px 20px 40px 20px;
+      background-color: #e6f0fa;
+      text-align: center;
+      border-radius: 15px;
+    }
+
+    /* Corner icons */
+    .newsletter-section .corner-icon {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+    }
+
+    .newsletter-section .corner-icon.left {
+      top: -10px;
+      left: -10px;
+    }
+
+    .newsletter-section .corner-icon.right {
+      top: 20px;
+      right: 20px;
+    }
+
+    .newsletter-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      font-weight: bold;
+      color: #111;
+    }
+
+    /* Email input + button */
+    .newsletter-form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .newsletter-form input[type="email"] {
+      padding: 15px 20px;
+      width: 300px;
+      max-width: 100%;
+      border-radius: 10px 0 0 10px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+    }
+
+    .newsletter-form button {
+      padding: 15px 25px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 0 10px 10px 0;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .newsletter-form button:hover {
+      background-color: #333;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .newsletter-form {
+        flex-direction: column;
+      }
+      .newsletter-form input[type="email"],
+      .newsletter-form button {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
