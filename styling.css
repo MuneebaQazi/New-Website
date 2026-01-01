@@ -213,7 +213,8 @@ font-size: 30px;
 
 /* Outer div */
 .outer-div {
-  min-height: 100vh;
+  min-height: 50vh;
+  min-width: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
